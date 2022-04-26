@@ -7,6 +7,7 @@ body {
   font-family: 'Fredoka', sans-serif;
 }
 
+
 header {
   height: 70px;
   display: flex;
@@ -27,6 +28,15 @@ h1 {
 main {
   height: calc(100vh - 120px);
   padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.board {
+  border: 6px solid #222;
+  padding: 20px 10px;
+  border-radius: 15px;
 }
 
 .row {
@@ -48,7 +58,7 @@ main {
 
 .cell:hover:not(.clicked) {
   cursor: pointer;
-  background-color: #FCB5D8;
+  background-color: #EFD4B1;
 }
 
 .cell p {
@@ -94,6 +104,10 @@ main {
   color: #A959AF;
 }
 
+.settings {
+  display: flex;
+  flex-direction: column;
+}
 footer {
   height: 50px;
   display: flex;
