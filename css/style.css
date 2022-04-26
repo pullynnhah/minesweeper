@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(0deg, #333 0, #DDD 100%);
+  font-family: 'Fredoka', sans-serif;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+header img {
+  height: 50px;
+}
+
+h1 {
+  color: #000;
+  font-size: 30px;
+}
+
+main {
+  height: calc(100vh - 120px);
+  padding: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  height: 50px;
+  width: 50px;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  margin: 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover:not(.clicked) {
+  cursor: pointer;
+  background-color: #FCB5D8;
+}
+
+.cell p {
+  font-size: 36px;
+}
+
+.one {
+  background-color: #4D96FF;
+  color: #B4D3FF;
+}
+
+.two {
+  background-color: #54A141;
+  color: #B4FF9F;
+}
+
+.three {
+  background-color: #FD5D5D;
+  color: #FFBABA;
+}
+
+.four {
+  background-color: #A959AF;
+  color: #D6AEDC;
+}
+
+.five {
+  background-color: #B4D3FF;
+  color: #4D96FF;
+}
+
+.six{
+  background-color: #B4FF9F;
+  color: #54A141;
+}
+.seven {
+  background-color: #FFBABA;
+  color: #FD5D5D;
+}
+
+.eight {
+  background-color: #D6AEDC;
+  color: #A959AF;
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+footer p {
+  font-size: 15px;
+  color: #FAFAFA;
+}
